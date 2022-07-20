@@ -4,7 +4,7 @@ body{
 }
 .player{
     color: #FFFFFF;
-    width: 50%;
+    /* width: 50%; */
     height: 400px;
     margin-top:100px;
     margin-left: 50px;
@@ -72,6 +72,14 @@ border-radius: 10px;
     margin-left: 20px;
    }
    .menu-1{
+    height: 50px;
+    width: 200px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 20px;
+   }
+   .menu-2{
     height: 50px;
     width: 200px;
     background-color: #DD0000;
@@ -204,9 +212,3 @@ font-size: 16px;
 
 /* -------
 ------------------- */
-@media screen and (min-width="768px") and (max-width="991px") {
-    .article{
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-}
